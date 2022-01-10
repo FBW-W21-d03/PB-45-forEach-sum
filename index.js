@@ -1,9 +1,14 @@
+// 1 )
 const zahlen = [
-    3066, 3189, 4001, 200 , 0
+    3066, 3189, 4001, 200, 0
 ];
-total = [];
-zahlen.forEach(function(namber){
-      total += namber;
-    });
+console.log(zahlen);
 
-    console.log("Die Summe aller Zahlen ist :", total);
+// 2 )
+let total = 0;
+
+zahlen.forEach(function (namber) {
+    total += namber;
+});
+
+console.log("Die Summe aller Zahlen ist :", total);
