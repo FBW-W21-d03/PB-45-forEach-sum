@@ -32,4 +32,4 @@ numbers2.forEach(
         sum2 = sum2 + einzelneZahl2;
     }
 );
-console.log("Die neue Summe ist: " , sum2);
+console.log("Die neue Summe ist: " , sum2.toLocaleString("de-DE"));
