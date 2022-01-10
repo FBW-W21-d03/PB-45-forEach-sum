@@ -6,4 +6,4 @@ zahlen.forEach(function(namber){
       total += namber;
     });
 
-    console.log("Die Summe ller ahlen ist :", total);
+    console.log("Die Summe aller Zahlen ist :", total);
