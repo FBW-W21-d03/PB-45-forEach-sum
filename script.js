@@ -1,10 +1,8 @@
-const numbers = [3066, 3189, 4001, 200, 0];
+const zahlen = [3066, 3189, 4001, 200, 0];
+let counter = 0; // speichert Summe
 
-let counter = 0;
-numbers.forEach (
-    (plus) =>{
+zahlen.forEach((zahl) => {
+  counter += zahl;
+});
 
-       counter = counter + plus;
-    }
-);
-console.log(counter);
+console.log("Gesamtsumme:", counter);
