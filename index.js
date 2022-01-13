@@ -33,3 +33,10 @@ numbers2.forEach(
     }
 );
 console.log("Die neue Summe ist: " , sum2.toLocaleString("de-DE"));
+
+
+console.log("------------- rechnung mit reduce --------------------------------");
+let sum3 = [5687, 1677, 5723, 333 , 0];
+const result = sum3.reduce((a , b) => a + b);
+console.log("Die neue Summe ist:" , result.toLocaleString("de-DE"));
+
