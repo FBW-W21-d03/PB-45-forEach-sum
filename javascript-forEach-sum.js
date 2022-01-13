@@ -6,7 +6,12 @@ console.log("Aufgabe 2: \n");
 
 let sum = 0;
 arrayZahlen.forEach((zahlen) => {
-    sum = zahlen + sum;
+    sum += zahlen;
 });
 
 console.log("Das Ergebnis: ", sum);
+
+// Teile reduce
+
+const arrayReduce = arrayZahlen.reduce((sum, zahlen) => sum + zahlen);
+console.log("Reduce ergebnis: ", arrayReduce);
