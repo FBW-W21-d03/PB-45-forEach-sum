@@ -17,5 +17,3 @@ const reducer = (previousValue, currentValue) =>
   previousValue + " , " + currentValue;
 
 console.log(employees.reduce(reducer));
-
-console.log(employees.reduce(reducer, 5));
