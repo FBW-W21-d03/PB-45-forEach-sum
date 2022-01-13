@@ -12,5 +12,5 @@ zahlen.forEach(
 );
 console.log(initialwert);*/
 
-const result = zahlen.reduce((vorher, jetziges) => vorheriges + jetzt);
+const result = zahlen.reduce((vorher, jetzt) => vorher + jetzt);
 console.log(result);
