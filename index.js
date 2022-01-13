@@ -7,4 +7,8 @@ numbers.forEach (
        counter = counter + plus;
     }
 );
-console.log(counter);
+console.log("Result with forEach:",counter);
+
+// Reduce
+const reducedResult = numbers.reduce ((current, result)=> current + result);
+console.log("Result with reduce:",reducedResult);
