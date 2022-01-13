@@ -1,7 +1,7 @@
 const zahlen = [
     3066, 3189, 4001, 200 , 0
 ];
-let initialwert = 0;
+/*let initialwert = 0;
 
 zahlen.forEach(
     (zahl) =>{
@@ -10,4 +10,7 @@ zahlen.forEach(
     }
     
 );
-console.log(initialwert);
+console.log(initialwert);*/
+
+const result = zahlen.reduce((vorher, jetziges) => vorheriges + jetzt);
+console.log(result);
