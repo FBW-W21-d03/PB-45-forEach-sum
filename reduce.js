@@ -13,7 +13,8 @@ const employees = [
   "Amelia",
 ];
 
-const reducer = (previousValue, currentValue) => previousValue + currentValue;
+const reducer = (previousValue, currentValue) =>
+  previousValue + " , " + currentValue;
 
 console.log(employees.reduce(reducer));
 
