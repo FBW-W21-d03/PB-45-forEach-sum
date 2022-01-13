@@ -1,5 +1,7 @@
 # javascript-forEach-sum
 
+## !NEU! Wiederhole die Übungsaufgabe unter Verwendung des reduce-Methode.
+
 ## Aufgabenstellung - Teil 1
 Schreibe erneut ein Array mit Zahlen: 3066, 3189, 4001, 200 und 0
 
